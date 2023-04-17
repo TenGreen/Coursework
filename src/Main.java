@@ -36,9 +36,9 @@ public class Main {
                 stringPoem[i] = null;
             }
         }
-        for (int i = 0; i < stringPoem.length; i++) {
-            if (stringPoem[i] != null) {
-                System.out.print(stringPoem[i]);
+        for (String s : stringPoem) {
+            if (s != null) {
+                System.out.print(s);
             }
         }
     }
